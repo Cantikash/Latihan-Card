@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<!--informasi tambahan-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navbar</title>
+	<style>
+	
+	.navbar {
+		background-color: pink;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 25px;
+	}
+	.logo {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+	.logo img {
+		width: 40px;
+	}
+	.text {
+		display: flex;
+		felx-direction: column;
+		line-height: 1.1;
+	}
+	.judul {
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.subjudul {
+		font-size: 14px;
+		color: grey;
+	}
+	.menu {
+		list-style: none;
+		display: flex;
+		gap: 20px;
+	}
+	.menu a {
+		color: black;
+		text-decoration: none;
+	}
+	.menu a:hover {
+		color: blue;
+	}
+	.menu li a {
+	color: #ddd;
+	text-decoration: none;
+	font-size: 16px;
+	transition: 0.3s;
+
+	background-color: white; /* tambhakan ini untuk menjadikan tombol */
+	color: #007bff;
+	padding: 10px 20px;
+	text-decoration:none;
+	font-weight: bold;
+	border-radius: 5px;
+	}
+	
+	.menu li a:hover {
+		background-color: violet;
+		color: white;
+		}
+	
+	
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+		<div class="logo">
+			<img src="wikrama-logo.png"> <br>
+		</div>
+		<ul class="menu">
+			<li><a href="#">Beranda</a></li>
+			<li><a href="LatihanProfilDanCSS.html">Profil</a></li>
+			<li><a href="#">Alamat</a></li>
+			<li><a href="baru.html">Buku Tamu</a></li>
+			
+		</ul>
+	</nav>
+
+</body>
+</html>
